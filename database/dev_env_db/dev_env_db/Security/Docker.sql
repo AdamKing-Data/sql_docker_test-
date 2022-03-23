@@ -1,2 +1,4 @@
 ﻿CREATE SCHEMA [Docker]
-	AUTHORIZATION Dbo
+    AUTHORIZATION [dbo];
+
+

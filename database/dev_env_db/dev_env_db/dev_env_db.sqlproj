@@ -61,6 +61,8 @@
     <Folder Include="Views" />
     <Folder Include="Stored Procedures" />
     <Folder Include="Functions" />
+    <Folder Include="Publish_Scripts\" />
+    <Folder Include="SchemaCompare\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Docker.sql" />
@@ -71,4 +73,11 @@
     <Build Include="Stored Procedures\usp_add_person_address.sql" />
     <Build Include="Functions\add_three.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish_Scripts\dev_env_db.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SchemaCompare\localdbtoSource.scmp" />
+  </ItemGroup>
+ 
 </Project>
