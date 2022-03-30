@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Docker].[person] (
     [Id]            INT           IDENTITY (1, 1) NOT NULL,
-    [Fistname]      NVARCHAR (50) NULL,
+    [Firstname]      NVARCHAR (50) NULL,
     [Lastname]      NVARCHAR (50) NULL,
     [date_of_birth] DATE          NULL,
     [occupation]    NVARCHAR (50) NULL,

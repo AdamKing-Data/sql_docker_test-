@@ -57,27 +57,27 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Security" />
-    <Folder Include="Tables" />
-    <Folder Include="Views" />
-    <Folder Include="Stored Procedures" />
-    <Folder Include="Functions" />
     <Folder Include="Publish_Scripts\" />
     <Folder Include="SchemaCompare\" />
+    <Folder Include="Docker" />
+    <Folder Include="Docker\Functions" />
+    <Folder Include="Docker\Stored Procedures" />
+    <Folder Include="Docker\Tables" />
+    <Folder Include="Docker\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Docker.sql" />
-    <Build Include="Tables\person.sql" />
-    <Build Include="Tables\Address.sql" />
-    <Build Include="Views\vw_person.sql" />
-    <Build Include="Stored Procedures\usp_add_new_person.sql" />
-    <Build Include="Stored Procedures\usp_add_person_address.sql" />
-    <Build Include="Functions\add_three.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Publish_Scripts\dev_env_db.publish.xml" />
+    <Build Include="Docker\Functions\add_three.sql" />
+    <Build Include="Docker\Stored Procedures\usp_add_new_person.sql" />
+    <Build Include="Docker\Stored Procedures\usp_add_person_address.sql" />
+    <Build Include="Docker\Tables\Address.sql" />
+    <Build Include="Docker\Tables\person.sql" />
+    <Build Include="Docker\Views\vw_person.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare\localdbtoSource.scmp" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <RefactorLog Include="dev_env_db.refactorlog" />
+  </ItemGroup>
 </Project>

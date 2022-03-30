@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b9b55b31-7682-41f1-8295-be3941ed38c3" ChangeDateTime="03/30/2022 10:09:29">
+    <Property Name="ElementName" Value="[Docker].[person].[Fistname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Docker].[person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Firstname]" />
+  </Operation>
+</Operations>
