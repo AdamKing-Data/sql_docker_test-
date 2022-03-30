@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare\localdbtoSource.scmp" />
+    <None Include="Publish_Scripts\dev_env_db_to_container_1434.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="dev_env_db.refactorlog" />
